@@ -1,0 +1,24 @@
+DB proposed structure :
+
+Users :
+- UserID - ObjectID
+- Name - String
+- Email - String
+- Password(Hashed) - String
+
+Roles : 
+- UserID - ObjectID
+- Role - String
+
+Tasks :
+- TaskNumber - ObjectID
+- Title - String
+- Type - String
+- Description - String
+- Acceptance Criteria - String
+- Status - String
+- StartDate - Date
+- DueDate - Date
+- OriginalEstimate - Decimal
+- Assignee - ObjectID
+- Reporter - ObjectID of Creator
